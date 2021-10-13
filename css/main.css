@@ -1,0 +1,306 @@
+/* start navbar */
+.navbar h1 {
+    color: rgb(67, 49, 119);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fas {
+    color: red;
+}
+
+.collapse ul li {
+    margin-right: 10px;
+}
+
+.collapse ul li a {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.collapse ul li button {
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+.menue .fas {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+/* end navbar */
+
+/* start first part */
+
+.container  {
+    margin-top: 50px;
+}
+.container h2{
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+}
+.container .ul0{
+    position: absolute;
+    top: -17px;
+    left: 150px;
+    list-style: none;
+}
+.container h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: cadetblue;
+    
+}
+.container .ul0 li{
+    font-size: 30px;
+    font-weight: bold;
+}
+span{
+    color: crimson;
+}
+.sp{
+    color: darkcyan;
+}
+.sp1{
+    font-size: 15px;
+    color: gray;
+}
+.sp2{
+    letter-spacing: 0.04em;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+/* end first part */
+/* second partr */
+.list-group .aaa{
+    background-color: grey;
+    color: ivory;
+    position: relative;
+}
+
+.list-group .aaa .arrow{
+    font-size: 15px;
+    color: blue;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+}
+.list-group .bb{
+    background-color: royalblue;
+    color: mintcream;
+    position: relative;
+}
+.list-group .bb .arrow1{
+    font-size: 15px;
+    color: blue;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+}
+/* end second part */
+
+/* thrid section symptoms */
+#two{
+    margin-top: 50px;
+}
+#symptoms{
+    margin-top: 50px;
+}
+.card1{
+    margin-top: 30px;
+    position: relative;
+}
+.card1 img{
+    width: 30%;
+    position: absolute;
+    top: -25px;
+    right: 2px;
+}
+/* start 4 section prevention */
+#prevention{
+    margin-top: 100px;
+}
+#prevention h2{
+    color: #2a81ea;
+    font-size: 20px;
+}
+#prevention h3{
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+#prevention p{
+    color: #2a81ea;
+    font-size: 15px;
+}
+.card11{
+    border: none;
+
+}
+.card11 h5{
+    color: #3d4b69;
+    font-size: 15px;
+}
+.card11 img{
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+
+}
+/* start 5 section */
+.sec00 p{
+   color: #3d4b69;
+}
+.sp0{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+/* section follow */
+#follow{
+    margin-top: 80px;
+}
+#follow .text h1{
+    color: #3d4b69;
+    font-size: 25px;
+    font-weight: bold;
+}
+#follow .text a{
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 20px;
+}
+#follow img{
+    width: 70%;
+}
+#follow p{
+    color: #3d4b69;
+    font-size: 20px;
+}
+@media(max-width: 767px){
+    #follow img{
+        width: 50%;
+    }
+}
+/* start section protect */
+.protect2{
+    background-color: #f7f9fe;
+    padding: 100px 0px;
+    transition: all .5s;
+}
+
+.protect2 .content h3{
+    color: blue;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.protect2 .content h1{
+    color: #50658e;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.protect2 .content p{
+    color: gray;
+    font-size: 16px;
+}
+.protect2 .left{
+    margin-top: 120px;
+}
+.protect2 .left .box{
+    margin-bottom: 20px;
+    position: relative;
+    justify-content: flex-end;
+}
+.protect2 .left .box h6{
+    font-size: 13px;
+    color: #0086c4;
+    margin-right: 10px;
+}
+.protect2 .left .box i{
+    color: #ff5656;
+    position: absolute;
+    right: 72px;
+    top: 2px;
+}
+.protect2 .left .box img{
+    max-width: 30%;
+    border: 1px solid #0086c4;
+    border-radius: 50%;
+}
+.protect2 .med img{
+    margin: 115px 0px 0px 0px;
+}
+
+.protect2 .right{
+    margin-top: 120px;
+}
+.protect2 .right .box{
+    margin-bottom: 20px;
+    position: relative;
+    justify-content: flex-start;
+}
+.protect2 .right .box h6{
+    font-size: 13px;
+    color: #0086c4;
+    margin-left: 10px;
+}
+.protect2 .right .box i{
+    color: #00b900;
+    position: absolute;
+    left: 72px;
+    top: 2px;
+}
+.protect2 .right .box img{
+    max-width: 30%;
+    border: 1px solid #0086c4;
+    border-radius: 50%;
+}
+/* start media for section protect */
+@media(max-width: 767px) {                                           /* mobile and tablet screen rules */
+    .protect2 .row{
+        justify-content: center !important;
+    }
+    .protect2 .right .box i{
+        left: -20px;
+        top: 2px;
+    }
+    .protect2 .left .box i{
+        right: 67px;
+        top: 2px; 
+    }
+}
+.display{
+    display: none;
+}
+/* section common */
+.common i{
+    color: #50658e;
+}
+/* scroll-top div */
+
+.scroll-top i{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #3535ff;
+    padding: 6px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.scroll-top i:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+/* scroll-top div */
